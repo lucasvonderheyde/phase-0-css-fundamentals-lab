@@ -3,3 +3,27 @@ body {
   height: 100%;
   margin: 0;
 }
+
+* {
+  text-align: center;
+}
+
+nav > a {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+section > p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 25px;
+  padding: 1em;
+}
+
+section#details > div {
+  float: left;
+  width: 25%;
+  background-color: red;
+}
+
+
